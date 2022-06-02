@@ -1,0 +1,21 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ae95fdca-b788-452a-965c-b238beefea45)
+
+  (paper "A4")
+
+  (title_block
+    (title "Broys - 4 x 7 seven segment display")
+    (date "2022-06-02")
+    (rev "v0.1")
+    (company "lilordag")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
