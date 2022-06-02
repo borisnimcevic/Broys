@@ -10,4 +10,4 @@
 |Component  |Quantity |Link   |
 |-----      |-----    |-----  |
 |ESP32-C3   |1        |[digikey](https://www.digikey.se/en/products/detail/espressif-systems/ESP32-C3/14115579) |
-|FLASH 4MBIT   |1        |[digikey](https://www.digikey.se/en/products/detail/winbond-electronics/W25X40CLSNIG/3008652) |
+|FLASH 4MBIT   |1        |[digikey](https://www.digikey.se/en/products/detail/winbond-electronics/W25Q16JVSSIM/12143335) |
