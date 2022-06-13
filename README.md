@@ -1,10 +1,7 @@
-# Broys (ESP32-C3 4 x 7-segment display)
+# Watchular (ESP32-C3 based modular watch)
 
 ### Name origin:
-* "broj" means "number" in Serbian
-* 'j' is pronounced differently in Serbian and English, therefore 'y'
-* there is more than one 7-segment digit, therefore 's'
-
+* watch + modular
 
 ### Bill Of Materials
 |Component  |Quantity |Link   |
