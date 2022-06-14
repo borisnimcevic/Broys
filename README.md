@@ -13,3 +13,4 @@
 |resistor 10k 0402   |1        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402FR-0710KP/4935264) |
 |LED red 0603|30        |[digikey](https://www.digikey.se/en/products/detail/osram-opto-semiconductors-inc/LS-Q976-NR-1/1227986) |
 |LED transistor driver |4        |[digikey](https://www.digikey.se/en/products/detail/micro-commercial-co/MMBT5550-TP/10054662) |
+|Ceramic antenna (chip antenna)|1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/2450AT18A100E/1560676) |
