@@ -15,4 +15,7 @@
 |LED transistor driver |4        |[digikey](https://www.digikey.se/en/products/detail/micro-commercial-co/MMBT5550-TP/10054662) |
 |Ceramic antenna (chip antenna)|1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/2450AT18A100E/1560676) |
 |Ceramic capacitor 1pF |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/500R07S1R0BV4T/1561521?s=N4IgTCBcDaIKwAYECUEHYDKBGVAhAagCwAqIAugL5A) |
+|Ceramic capacitor 1uF |1        |[digikey](https://www.digikey.se/en/products/detail/kyocera-avx/04023D105KAT2A/13557232) |
 |Ceramic inductor 2.7nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C2N7SV6T/1830166?s=N4IgTCBcDaIDIFoAMB2AwmAcigygNQDYAVEAXQF8g) |
+|Ceramic inductor 3.9nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C3N9SV6T/1915227) |
+|Ceramic inductor 39nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C39NJV6T/1915226) |
