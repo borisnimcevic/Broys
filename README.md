@@ -14,3 +14,5 @@
 |LED red 0603|30        |[digikey](https://www.digikey.se/en/products/detail/osram-opto-semiconductors-inc/LS-Q976-NR-1/1227986) |
 |LED transistor driver |4        |[digikey](https://www.digikey.se/en/products/detail/micro-commercial-co/MMBT5550-TP/10054662) |
 |Ceramic antenna (chip antenna)|1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/2450AT18A100E/1560676) |
+|Ceramic capacitor 1pF |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/500R07S1R0BV4T/1561521?s=N4IgTCBcDaIKwAYECUEHYDKBGVAhAagCwAqIAugL5A) |
+|Ceramic inductor 2.7nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C2N7SV6T/1830166?s=N4IgTCBcDaIDIFoAMB2AwmAcigygNQDYAVEAXQF8g) |
