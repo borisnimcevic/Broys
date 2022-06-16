@@ -240,7 +240,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "design-broys.kicad_pro",
+    "filename": "watchular_hardware_design.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -323,6 +323,10 @@
     [
       "ae95fdca-b788-452a-965c-b238beefea45",
       ""
+    ],
+    [
+      "4564b4f9-90bf-45c2-8acf-66350b5ba946",
+      "peripherals"
     ]
   ],
   "text_variables": {}
