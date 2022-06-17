@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Watchular - 4 x 7 seven segment display")
+    (title "boiler plate for esp32c3")
     (date "2022-06-17")
     (rev "v0.1")
     (company "Lilordag")
@@ -1042,6 +1042,7 @@
       )
     )
   )
+
 
   (junction (at 222.25 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 010e86cf-0ec0-4a9f-822e-c845d6be1db9)
