@@ -6,7 +6,7 @@
 
   (title_block
     (title "Watchular - 4 x 7 seven segment display")
-    (date "2022-06-17")
+    (date "2022-06-19")
     (rev "v0.1")
     (company "Lilordag")
   )
