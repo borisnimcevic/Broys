@@ -22,3 +22,4 @@
 |Ceramic inductor 2.7nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C2N7SV6T/1830166?s=N4IgTCBcDaIDIFoAMB2AwmAcigygNQDYAVEAXQF8g) |
 |Ceramic inductor 3.9nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C3N9SV6T/1915227) |
 |Ceramic inductor 39nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C39NJV6T/1915226) |
+|Button|2        |[digikey](https://www.digikey.se/en/products/detail/e-switch/TL3301AF260QG/378995?s=N4IgTCBcDaICoBkDMSAMBGAggMTANlQEUBxEAXQF8g) |
