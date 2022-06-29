@@ -6,7 +6,7 @@
 
   (title_block
     (title "Watchular - 4 x 7 seven segment display")
-    (date "2022-06-22")
+    (date "2022-06-29")
     (rev "v0.1")
     (company "Lilordag")
   )
@@ -3663,6 +3663,9 @@
     )
     (path "/e10a3c85-8073-4ae2-ab18-9aae4c5ce096"
       (reference "J1") (unit 1) (value "USB4105-GF-A") (footprint "USBC-USB4105-GF-A:GCT_USB4105-GF-A")
+    )
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/bcf8fc21-2e6f-4838-871d-7ce6d0592d88"
+      (reference "J?") (unit 1) (value "TSW-116-07-H-S") (footprint "SAMTEC_TSW-116-07-H-S")
     )
     (path "/1f1de665-878b-408f-bbe7-a6c746e0bfb6"
       (reference "L1") (unit 1) (value "2.7 nH") (footprint "Inductor_SMD:L_0402_1005Metric")
