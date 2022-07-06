@@ -24,3 +24,4 @@
 |Ceramic inductor 39nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C39NJV6T/1915226) |
 |Button|2        |[digikey](https://www.digikey.se/en/products/detail/e-switch/TL3301AF260QG/378995?s=N4IgTCBcDaICoBkDMSAMBGAggMTANlQEUBxEAXQF8g) |
 |Header 15 positions|2        |[digikey](https://www.digikey.se/en/products/detail/adam-tech/PH1-15-UA/9830359) |
+|Battery connector|1        |[digikey](https://www.digikey.se/en/products/detail/w%C3%BCrth-elektronik/665102131822/5047757?s=N4IgTCBcDaIGxwKwEYAMZkGZkA4wQF0BfIA) |

@@ -2698,7 +2698,7 @@
   (symbol (lib_id "power:+3.3V") (at 119.38 67.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 34c1a4d8-d7ee-4b7a-99da-7cd07d1005bb)
-    (property "Reference" "#PWR013" (id 0) (at 119.38 71.12 0)
+    (property "Reference" "#PWR015" (id 0) (at 119.38 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 119.38 63.5 0))
@@ -2992,7 +2992,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9120a6ea-b598-4522-bfaa-8887ccdd41c3)
-    (property "Reference" "#PWR014" (id 0) (at 115.57 27.94 0)
+    (property "Reference" "#PWR013" (id 0) (at 115.57 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 115.57 19.05 0))
@@ -3472,7 +3472,7 @@
   (symbol (lib_id "power:GND") (at 115.57 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fd514cac-e767-46f7-ad31-3e763b781065)
-    (property "Reference" "#PWR015" (id 0) (at 115.57 50.8 0)
+    (property "Reference" "#PWR014" (id 0) (at 115.57 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 115.57 49.53 0))
@@ -3539,14 +3539,14 @@
     (path "/94a92b90-d6d1-453d-9ec7-8d06e49fdc34"
       (reference "#PWR012") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/34c1a4d8-d7ee-4b7a-99da-7cd07d1005bb"
-      (reference "#PWR013") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/9120a6ea-b598-4522-bfaa-8887ccdd41c3"
-      (reference "#PWR014") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR013") (unit 1) (value "+5V") (footprint "")
     )
     (path "/fd514cac-e767-46f7-ad31-3e763b781065"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/34c1a4d8-d7ee-4b7a-99da-7cd07d1005bb"
+      (reference "#PWR015") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/ad2d0502-a432-4e5a-8cdf-8c89706aaed8"
       (reference "#PWR016") (unit 1) (value "+5V") (footprint "")
@@ -3596,17 +3596,17 @@
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/39176a5a-bace-4dce-bfe2-de9ed80c862d"
       (reference "#PWR031") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/3f4e7940-f12b-43b6-a231-2830bdb19a41"
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/d2f21d72-2bda-4a0a-a303-b1da50302a4c"
       (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/97dd204e-2a06-4a2b-a41c-0bb1913eca42"
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/3f4e7940-f12b-43b6-a231-2830bdb19a41"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/f766da9c-a2d4-4ea2-91de-56ef56d471fe"
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/97dd204e-2a06-4a2b-a41c-0bb1913eca42"
       (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/d2f21d72-2bda-4a0a-a303-b1da50302a4c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/f766da9c-a2d4-4ea2-91de-56ef56d471fe"
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
     (path "/1139fd41-bcfc-4cbe-8f9a-b980537f1914"
       (reference "AE1") (unit 1) (value "2450AT18A100E") (footprint "ANTC3216X140N")
@@ -3731,11 +3731,14 @@
     (path "/e10a3c85-8073-4ae2-ab18-9aae4c5ce096"
       (reference "J1") (unit 1) (value "USB4105-GF-A") (footprint "USBC-USB4105-GF-A:GCT_USB4105-GF-A")
     )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/c743158b-46ad-42f9-b58f-5342cfaffe38"
-      (reference "J?") (unit 1) (value "TSW-115-07-H-S") (footprint "SAMTEC_TSW-115-07-H-S")
-    )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/d28e1308-70e7-4ba2-8e9f-b0f2255fae00"
-      (reference "J?") (unit 1) (value "TSW-115-07-H-S") (footprint "SAMTEC_TSW-115-07-H-S")
+      (reference "J2") (unit 1) (value "TSW-115-07-H-S") (footprint "SAMTEC_TSW-115-07-H-S")
+    )
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/c743158b-46ad-42f9-b58f-5342cfaffe38"
+      (reference "J3") (unit 1) (value "TSW-115-07-H-S") (footprint "SAMTEC_TSW-115-07-H-S")
+    )
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/dfc39c27-7bf5-4289-bf16-89ef78eca45f"
+      (reference "J4") (unit 1) (value "665102131822") (footprint "battery_connector-665102131822:665102131822")
     )
     (path "/1f1de665-878b-408f-bbe7-a6c746e0bfb6"
       (reference "L1") (unit 1) (value "2.7 nH") (footprint "Inductor_SMD:L_0402_1005Metric")
