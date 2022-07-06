@@ -27,4 +27,5 @@
 |Battery connector|1        |[digikey](https://www.digikey.se/en/products/detail/w%C3%BCrth-elektronik/665102131822/5047757?s=N4IgTCBcDaIGxwKwEYAMZkGZkA4wQF0BfIA) |
 |Battery charger|1        |[digikey](https://www.digikey.se/en/products/detail/microchip-technology/MCP73832T-2DCI-OT/1223150) |
 |P-channel MOSFET|1        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/DMG1013UW-7/2183241) |
+|Schottky|1        |[digikey](https://www.digikey.se/en/products/detail/smc-diode-solutions/DSS16U/8341861) |
 
