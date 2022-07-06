@@ -3830,6 +3830,9 @@
     (path "/cd5ad33b-1e02-4f55-b267-df7f2bbfff29"
       (reference "U3") (unit 1) (value "W25Q16JVSSIQ") (footprint "W25Q16JVSSIQ:SOIC127P790X216-8N")
     )
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/f5ebd863-bc6e-4050-aeab-988f1e96800d"
+      (reference "U4") (unit 1) (value "MCP73832T-2DCI/OT") (footprint "battery_charger-MCP73832T:SOT95P280X145-5N")
+    )
     (path "/55ad823c-14d2-47dc-8173-d17e83a54890"
       (reference "Y1") (unit 1) (value "40MHz") (footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm")
     )
