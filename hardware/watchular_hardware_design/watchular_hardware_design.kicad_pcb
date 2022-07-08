@@ -1516,7 +1516,7 @@
 
   (footprint "header-TSW-116-07-H-S:SAMTEC_TSW-116-07-H-S" (layer "F.Cu")
     (tedit 62BC33D8) (tstamp 681531dc-ac5b-4ca3-aba7-f914ad12a61e)
-    (at 33.02 78.74 90)
+    (at 30.75 75.75 90)
     (property "MANUFACTURER" "Samtec")
     (property "PARTREV" "R")
     (property "STANDARD" "Manufacturer Recommendations")
@@ -4318,13 +4318,6 @@
     )
   )
 
-  (gr_poly
-    (pts
-      (xy 223.52 50.8)
-      (xy 223.52 109.22)
-      (xy 27.94 106.68)
-      (xy 25.4 33.02)
-      (xy 172.72 33.02)
-    ) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp a42fe73e-b40a-4f83-9ac3-49fc196cbede))
+  (gr_rect (start 30 110) (end 113.312 132.86) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 55fc7f76-5d72-4428-9df8-62549b97e537))
 
 )
