@@ -1276,7 +1276,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via" (layer "F.Cu")
     (tedit 56DDB9C7) (tstamp 6f737ef8-8308-4c76-b167-eb5f7dc08446)
-    (at 141.4 130.2)
+    (at 141.4 130.26)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (property "Sheetfile" "peripherals.kicad_sch")
@@ -1941,7 +1941,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via" locked (layer "F.Cu")
     (tedit 56DDB9C7) (tstamp c88e6ade-cead-4d73-aa87-cf8e8b01d056)
-    (at 92.6 130.2)
+    (at 92.6 130.26)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (property "Sheetfile" "peripherals.kicad_sch")
@@ -4416,6 +4416,11 @@
 
   (gr_circle (center 103.594 119) (end 103.844 119) (layer "F.SilkS") (width 0.153) (fill solid) (tstamp 9217be18-85b4-4e90-a911-7d144e672972))
   (gr_rect locked (start 90 110) (end 144 132.86) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 55fc7f76-5d72-4428-9df8-62549b97e537))
+  (gr_line (start 90 110) (end 144 110) (layer "User.2") (width 0.153) (tstamp 35ad286f-ca60-4f78-81a0-b844b27d756f))
+  (gr_line (start 144 110) (end 144 130.2) (layer "User.2") (width 0.153) (tstamp 5cfbcce7-1141-43db-b0e4-804ba13e6043))
+  (gr_arc (start 92.6 132.86) (mid 90.754451 132.095549) (end 89.99 130.25) (layer "User.2") (width 0.153) (tstamp a6752e6f-29f3-435a-b75a-f328863ded58))
+  (gr_line (start 92.6 132.86) (end 141.4 132.86) (layer "User.2") (width 0.153) (tstamp bf4696b8-60c2-4f78-a562-186899d84044))
+  (gr_line (start 90 110) (end 90 130.2) (layer "User.2") (width 0.153) (tstamp cb349dc2-f003-4eac-9424-15d4e404391a))
 
   (zone (net 4) (net_name "GND") (layer "In1.Cu") (tstamp 9b587de0-13b7-439d-95d5-e7fbffb87f28) (hatch edge 0.508)
     (connect_pads (clearance 0))
