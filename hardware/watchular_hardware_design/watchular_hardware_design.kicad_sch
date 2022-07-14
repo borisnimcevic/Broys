@@ -5015,12 +5015,6 @@
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/4b0f32d1-e6cf-4e1a-98e7-7e0e9ba290c0"
       (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/f83ace1e-67f8-4df7-80b0-06ff1f4916d0"
-      (reference "S1") (unit 1) (value "TL3301AF260QG") (footprint "switch-TL3301AF260QG:TL3301AF260QG")
-    )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/f4b1cd6a-c30f-4aea-baaa-7ed0e5b47d0e"
-      (reference "S2") (unit 1) (value "TL3301AF260QG") (footprint "switch-TL3301AF260QG:TL3301AF260QG")
-    )
     (path "/689edbc4-5b97-459a-8994-de31b71bcde9"
       (reference "T1") (unit 1) (value "DMG1013UW-7") (footprint "P_MOSFET-DMG1013UW:SOT-323")
     )
@@ -5035,6 +5029,12 @@
     )
     (path "/cd5ad33b-1e02-4f55-b267-df7f2bbfff29"
       (reference "U4") (unit 1) (value "W25Q16JVSSIQ") (footprint "W25Q16JVSSIQ:SOIC127P790X216-8N")
+    )
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/58f09d7a-c4fc-4703-a89c-077ec420b689"
+      (reference "U5") (unit 1) (value "TL3305AF260QG") (footprint "button_TL3305AF260QG:SW_TL3305AF260QG")
+    )
+    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/3ea8b1c2-e050-4825-b81d-1527715c65c1"
+      (reference "U6") (unit 1) (value "TL3305AF260QG") (footprint "button_TL3305AF260QG:SW_TL3305AF260QG")
     )
     (path "/55ad823c-14d2-47dc-8173-d17e83a54890"
       (reference "Y1") (unit 1) (value "40MHz") (footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm")
