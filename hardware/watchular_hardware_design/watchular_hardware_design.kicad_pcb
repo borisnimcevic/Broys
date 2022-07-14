@@ -437,9 +437,9 @@
     )
   )
 
-  (footprint "header-TSW-116-07-H-S:SAMTEC_TSW-116-07-H-S" (layer "F.Cu")
+  (footprint "header-TSW-116-07-H-S:SAMTEC_TSW-116-07-H-S" locked (layer "F.Cu")
     (tedit 62BC33D8) (tstamp 25e4675a-1deb-47b7-bde1-3f81e27043e1)
-    (at 118 130.9 180)
+    (at 117 131.59 180)
     (property "MANUFACTURER" "Samtec")
     (property "PARTREV" "R")
     (property "STANDARD" "Manufacturer Recommendations")
@@ -447,7 +447,7 @@
     (property "Sheetname" "peripherals")
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/826f6b0d-2967-455b-b765-bd5ed3c19940")
     (attr through_hole)
-    (fp_text reference "J3" (at -19 2.5) (layer "F.SilkS")
+    (fp_text reference "J3" (at -19 2.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4dab01dd-bfd3-4c6e-b78d-0510b2a49367)
     )
@@ -1081,9 +1081,9 @@
     )
   )
 
-  (footprint "header-TSW-116-07-H-S:SAMTEC_TSW-116-07-H-S" (layer "F.Cu")
+  (footprint "header-TSW-116-07-H-S:SAMTEC_TSW-116-07-H-S" locked (layer "F.Cu")
     (tedit 62BC33D8) (tstamp 681531dc-ac5b-4ca3-aba7-f914ad12a61e)
-    (at 118 111.1 180)
+    (at 117 111.27 180)
     (property "MANUFACTURER" "Samtec")
     (property "PARTREV" "R")
     (property "STANDARD" "Manufacturer Recommendations")
@@ -1684,7 +1684,7 @@
 
   (footprint "USBC-USB4105-GF-A:GCT_USB4105-GF-A" locked (layer "F.Cu")
     (tedit 62AB33BB) (tstamp 8ed1eda7-c2bb-42c2-8b13-d72b41604687)
-    (at 92.644 121 -90)
+    (at 92.644 121.43 -90)
     (property "MANUFACTURER" "GCT")
     (property "MAXIMUM_PACKAGE_HEIGHT" "3.31 mm")
     (property "PARTREV" "A3")
@@ -4278,25 +4278,25 @@
 
   (footprint "battery_connector-665102131822:665102131822" (layer "B.Cu")
     (tedit 62C55AD2) (tstamp cffdf437-ded9-49eb-9cf2-e71308c7b187)
-    (at 95.7 129 90)
+    (at 93.275 111.225 180)
     (descr "WR-WTB Wire-to-Board Connectors 1.00 mm SMT Male Horizontal Shrouded Header, 2 pins - Tape & Reel")
     (property "Sheetfile" "watchular_hardware_design.kicad_sch")
     (property "Sheetname" "")
     (path "/2165a21c-ab11-4652-bf06-c3f33d2343fd")
     (attr through_hole)
-    (fp_text reference "J2" (at 0 1.9264 90) (layer "B.Fab") hide
+    (fp_text reference "J2" (at 0 1.9264) (layer "B.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)) (justify mirror))
       (tstamp db4fba4b-7aa8-4b78-aec8-100f58ba1517)
     )
-    (fp_text value "665102131822" (at 2.7768 -5.6936 90) (layer "B.Fab") hide
+    (fp_text value "665102131822" (at 2.7768 -5.6936) (layer "B.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)) (justify mirror))
       (tstamp ba116194-4b52-4e1a-9b46-783b6f29f480)
     )
-    (fp_text user "1" (at -0.8 -1.9 90) (layer "B.Fab") hide
+    (fp_text user "1" (at -0.8 -1.9) (layer "B.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)) (justify mirror))
       (tstamp 05e079d1-a090-4fd6-8c9e-df398081dc4e)
     )
-    (fp_text user "1" (at -0.8 -1.9 90) (layer "B.Fab") hide
+    (fp_text user "1" (at -0.8 -1.9) (layer "B.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)) (justify mirror))
       (tstamp cba8f762-fb6f-4876-86b2-3bb75d47a73e)
     )
@@ -4315,12 +4315,12 @@
     (fp_line (start 2 -0.425) (end 2 -4.725) (layer "B.Fab") (width 0.127) (tstamp 36199fa7-0748-4af5-94c1-4c89813e886f))
     (fp_line (start -2 -0.425) (end 2 -0.425) (layer "B.Fab") (width 0.127) (tstamp 58f24a17-c252-48cf-9ad5-e54ad20e009a))
     (fp_line (start 2 -4.725) (end -2 -4.725) (layer "B.Fab") (width 0.127) (tstamp 6649c20b-e9c0-4943-8a87-b541e98d02cc))
-    (pad "1" smd rect locked (at -0.5 0 90) (size 0.6 1.55) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "1" smd rect locked (at -0.5 0 180) (size 0.6 1.55) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 51 "+BATT") (pintype "passive") (tstamp a7d27b60-9d3a-495e-9faf-e562c4241118))
-    (pad "2" smd rect locked (at 0.5 0 90) (size 0.6 1.55) (layers "B.Cu" "B.Paste" "B.Mask")
+    (pad "2" smd rect locked (at 0.5 0 180) (size 0.6 1.55) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 4 "GND") (pintype "passive") (tstamp eb379355-2f59-456f-b153-08042ea703b2))
-    (pad "Z1" smd rect locked (at -1.8 -3.875 90) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 77051f7d-60fb-4675-bb77-cd7c63929b48))
-    (pad "Z2" smd rect locked (at 1.8 -3.875 90) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp aec5a959-4668-4897-aba4-d11f881b1880))
+    (pad "Z1" smd rect locked (at -1.8 -3.875 180) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 77051f7d-60fb-4675-bb77-cd7c63929b48))
+    (pad "Z2" smd rect locked (at 1.8 -3.875 180) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp aec5a959-4668-4897-aba4-d11f881b1880))
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
@@ -4511,32 +4511,6 @@
   )
 
   (gr_circle (center 103.594 119) (end 103.844 119) (layer "F.SilkS") (width 0.153) (fill solid) (tstamp 9217be18-85b4-4e90-a911-7d144e672972))
-  (gr_rect (start 90 110) (end 144 132) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 55fc7f76-5d72-4428-9df8-62549b97e537))
+  (gr_rect locked (start 90 110) (end 144 132.86) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 55fc7f76-5d72-4428-9df8-62549b97e537))
 
-  (zone (net 4) (net_name "GND") (layer "In1.Cu") (tstamp d2b4f13e-744e-49fb-a64a-35f5394b37f8) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 175.094 133)
-        (xy 91.844 133)
-        (xy 91.844 110)
-        (xy 175.094 110)
-      )
-    )
-  )
-  (zone (net 48) (net_name "VDD3P3_CPU") (layer "In2.Cu") (tstamp d4b08c31-5216-46a5-a8c2-af964744dbba) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 175.094 133)
-        (xy 91.844 133)
-        (xy 91.844 110)
-        (xy 175.094 110)
-      )
-    )
-  )
 )
