@@ -4757,12 +4757,6 @@
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/03605c21-b1a9-4491-b75b-ae44aba2270d"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/55b809e0-2d1f-4175-aef4-0074c84ddd12"
-      (reference "#PWR054") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/8b964f33-0593-4d04-b4ec-a2824e967354"
-      (reference "#PWR055") (unit 1) (value "GND") (footprint "")
-    )
     (path "/1139fd41-bcfc-4cbe-8f9a-b980537f1914"
       (reference "AE1") (unit 1) (value "2450AT18A100E") (footprint "ANT-2450AT18A100E:ANTC3216X140N")
     )
@@ -4906,12 +4900,6 @@
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/947e1900-7198-44ca-940d-00ef9b6e1f1e"
       (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
-    )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/715832fa-eefe-4bd1-ab94-d1d287a16030"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
-    )
-    (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/dc0bdf80-0ea3-49c4-b641-8ac50e67bef4"
-      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
     (path "/e10a3c85-8073-4ae2-ab18-9aae4c5ce096"
       (reference "J1") (unit 1) (value "USB4105-GF-A") (footprint "USBC-USB4105-GF-A:GCT_USB4105-GF-A")
