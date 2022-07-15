@@ -3196,7 +3196,7 @@
     (uuid 03331129-ae22-4e80-9d9c-9c8a917dc58e)
     (property "Reference" "R9" (id 0) (at 167.386 138.049 90))
     (property "Value" "10k" (id 1) (at 175.006 138.049 90))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 171.45 138.303 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 171.45 138.303 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 171.196 139.319 0)
@@ -4083,7 +4083,7 @@
     (uuid ade64718-a9ae-4ab8-8cc9-c07744bcab7d)
     (property "Reference" "R8" (id 0) (at 166.878 144.272 90))
     (property "Value" "10k" (id 1) (at 174.498 144.272 90))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 170.942 144.526 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 170.942 144.526 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.688 145.542 0)
@@ -4956,10 +4956,10 @@
       (reference "R7") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/ade64718-a9ae-4ab8-8cc9-c07744bcab7d"
-      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/03331129-ae22-4e80-9d9c-9c8a917dc58e"
-      (reference "R9") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R9") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/034fd111-6c85-4cbf-80d1-99f99148241f"
       (reference "R10") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
