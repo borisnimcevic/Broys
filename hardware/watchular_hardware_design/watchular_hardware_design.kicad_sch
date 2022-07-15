@@ -3304,7 +3304,7 @@
   (symbol (lib_id "Device:LED") (at 173.228 43.434 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 11371973-6db5-4335-81b2-e2d76979d2a5)
-    (property "Reference" "D1" (id 0) (at 169.164 43.688 90)
+    (property "Reference" "D2" (id 0) (at 169.164 43.688 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "ORANGE" (id 1) (at 176.784 41.148 0)
@@ -4425,7 +4425,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 248.158 39.37 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e3a7578f-0dd3-4a26-8463-0a5677a5b70e)
-    (property "Reference" "D2" (id 0) (at 247.904 36.322 0))
+    (property "Reference" "D1" (id 0) (at 247.904 36.322 0))
     (property "Value" "D_Schottky" (id 1) (at 248.4755 35.052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4796,11 +4796,11 @@
     (path "/467fe17d-05eb-4c70-a684-2d898532d4bb"
       (reference "C12") (unit 1) (value "10nF") (footprint "Inductor_SMD:L_0402_1005Metric")
     )
-    (path "/11371973-6db5-4335-81b2-e2d76979d2a5"
-      (reference "D1") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder")
-    )
     (path "/e3a7578f-0dd3-4a26-8463-0a5677a5b70e"
-      (reference "D2") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123F")
+    )
+    (path "/11371973-6db5-4335-81b2-e2d76979d2a5"
+      (reference "D2") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/44b1153c-50e1-4208-be75-49b50eaacbdd"
       (reference "D3") (unit 1) (value "A") (footprint "LED_SMD:LED_0603_1608Metric")
