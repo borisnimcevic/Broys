@@ -4415,12 +4415,12 @@
   )
 
   (gr_circle (center 103.594 119) (end 103.844 119) (layer "F.SilkS") (width 0.153) (fill solid) (tstamp 9217be18-85b4-4e90-a911-7d144e672972))
-  (gr_rect locked (start 90 110) (end 144 132.86) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 55fc7f76-5d72-4428-9df8-62549b97e537))
-  (gr_line (start 90 110) (end 144 110) (layer "User.2") (width 0.153) (tstamp 35ad286f-ca60-4f78-81a0-b844b27d756f))
-  (gr_line (start 144 110) (end 144 130.2) (layer "User.2") (width 0.153) (tstamp 5cfbcce7-1141-43db-b0e4-804ba13e6043))
-  (gr_arc (start 92.6 132.86) (mid 90.754451 132.095549) (end 89.99 130.25) (layer "User.2") (width 0.153) (tstamp a6752e6f-29f3-435a-b75a-f328863ded58))
-  (gr_line (start 92.6 132.86) (end 141.4 132.86) (layer "User.2") (width 0.153) (tstamp bf4696b8-60c2-4f78-a562-186899d84044))
-  (gr_line (start 90 110) (end 90 130.2) (layer "User.2") (width 0.153) (tstamp cb349dc2-f003-4eac-9424-15d4e404391a))
+  (gr_line locked (start 90 110) (end 144 110) (layer "Edge.Cuts") (width 0.1) (tstamp 35ad286f-ca60-4f78-81a0-b844b27d756f))
+  (gr_arc locked (start 144 130.26) (mid 143.238478 132.098478) (end 141.4 132.86) (layer "Edge.Cuts") (width 0.1) (tstamp 3600bfaa-ace1-49f7-b043-7ff3a621f8b4))
+  (gr_line locked (start 144 110) (end 144 130.26) (layer "Edge.Cuts") (width 0.1) (tstamp 5cfbcce7-1141-43db-b0e4-804ba13e6043))
+  (gr_arc locked (start 92.6 132.86) (mid 90.761522 132.098478) (end 90 130.26) (layer "Edge.Cuts") (width 0.1) (tstamp 7361e57a-dada-4ddb-a2e1-f0eb2c2cd7fb))
+  (gr_line locked (start 92.6 132.86) (end 141.4 132.86) (layer "Edge.Cuts") (width 0.1) (tstamp bf4696b8-60c2-4f78-a562-186899d84044))
+  (gr_line locked (start 90 110) (end 90 130.26) (layer "Edge.Cuts") (width 0.1) (tstamp cb349dc2-f003-4eac-9424-15d4e404391a))
 
   (zone (net 4) (net_name "GND") (layer "In1.Cu") (tstamp 9b587de0-13b7-439d-95d5-e7fbffb87f28) (hatch edge 0.508)
     (connect_pads (clearance 0))
