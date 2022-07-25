@@ -4648,94 +4648,94 @@
       (reference "D2") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/44b1153c-50e1-4208-be75-49b50eaacbdd"
-      (reference "D3") (unit 1) (value "A") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D3") (unit 1) (value "A") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/079308e7-745e-48b5-b7ee-00427017f569"
-      (reference "D4") (unit 1) (value "B") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D4") (unit 1) (value "B") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/a1a23223-8edb-4981-8495-503ad8bc0d39"
-      (reference "D5") (unit 1) (value "C") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D5") (unit 1) (value "C") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/c5123bed-9b36-476a-90a2-5a8d1b80fcc3"
-      (reference "D6") (unit 1) (value "D") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D6") (unit 1) (value "D") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/243113ce-b58f-4b1e-8d54-54477f5f3291"
-      (reference "D7") (unit 1) (value "E") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D7") (unit 1) (value "E") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/b20a6855-3c3b-4be6-acff-9861d6e7459c"
-      (reference "D8") (unit 1) (value "F") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D8") (unit 1) (value "F") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/7b406779-1eca-4988-84ac-4c5061493d19"
-      (reference "D9") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D9") (unit 1) (value "G") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/87581155-2ca9-4f42-b690-018d41d4a1dc"
-      (reference "D10") (unit 1) (value "A") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D10") (unit 1) (value "A") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/21adf950-f7fa-4d14-8821-04a0a90b9204"
-      (reference "D11") (unit 1) (value "B") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D11") (unit 1) (value "B") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/70678f38-15eb-4b29-bdf3-4942996f76c9"
-      (reference "D12") (unit 1) (value "C") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D12") (unit 1) (value "C") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/d303ad0f-6827-412f-b2a4-59fff820289d"
-      (reference "D13") (unit 1) (value "D") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D13") (unit 1) (value "D") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/52d1e90b-5021-47fd-8616-ce5d237054d4"
-      (reference "D14") (unit 1) (value "E") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D14") (unit 1) (value "E") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/3625039e-4bd1-42a0-abc1-05e401ee6750"
-      (reference "D15") (unit 1) (value "F") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D15") (unit 1) (value "F") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/fed27a75-7ab2-42a1-8794-502b0b1fb3f2"
-      (reference "D16") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D16") (unit 1) (value "G") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/e1192684-7a60-4158-9b96-cfaa059e45fd"
-      (reference "D17") (unit 1) (value "DVI0") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D17") (unit 1) (value "DVI0") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/45d322f7-111e-4554-aa38-bbb08dafe1b3"
-      (reference "D18") (unit 1) (value "DVI1") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D18") (unit 1) (value "DVI1") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/fa9dcf80-f539-425d-9c9a-aabd8a4ef6af"
-      (reference "D19") (unit 1) (value "A") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D19") (unit 1) (value "A") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/1a895819-2dbf-4329-a013-8f0a10cc3714"
-      (reference "D20") (unit 1) (value "B") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D20") (unit 1) (value "B") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/56381035-ce96-4463-8aee-603fa0145900"
-      (reference "D21") (unit 1) (value "C") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D21") (unit 1) (value "C") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/7c21923d-df4a-4594-a2b0-e8195d279336"
-      (reference "D22") (unit 1) (value "D") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D22") (unit 1) (value "D") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/719e8700-18d8-4758-8f85-fd2c31c57adf"
-      (reference "D23") (unit 1) (value "E") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D23") (unit 1) (value "E") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/386d9d48-dfc1-4ec5-8f06-a99362691dfc"
-      (reference "D24") (unit 1) (value "F") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D24") (unit 1) (value "F") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/16c98362-9e66-4f73-b236-379ecafe94bf"
-      (reference "D25") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D25") (unit 1) (value "G") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/29edcc67-8c63-4123-8d2e-36c0b5fd62d0"
-      (reference "D26") (unit 1) (value "A") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D26") (unit 1) (value "A") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/60d50255-f7ab-44c1-87ca-f6a993820e01"
-      (reference "D27") (unit 1) (value "B") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D27") (unit 1) (value "B") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/c4365d56-1da6-4f5f-af54-08278d1fffdb"
-      (reference "D28") (unit 1) (value "C") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D28") (unit 1) (value "C") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/1df903f7-0506-4017-9235-f26cd5871406"
-      (reference "D29") (unit 1) (value "D") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D29") (unit 1) (value "D") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/dccc4e1d-89f0-4ddc-b4cd-1824ae192fba"
-      (reference "D30") (unit 1) (value "E") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D30") (unit 1) (value "E") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/abaed0df-abb5-45a1-9176-345b1a98de1f"
-      (reference "D31") (unit 1) (value "F") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D31") (unit 1) (value "F") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/4564b4f9-90bf-45c2-8acf-66350b5ba946/a313074b-f28b-4d5c-87b2-95b135490d04"
-      (reference "D32") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D32") (unit 1) (value "G") (footprint "boris:LED_0603_custom_boris")
     )
     (path "/5f564226-45db-47b5-8947-3a6e6bb5b8e6"
       (reference "DA1") (unit 1) (value "SR05") (footprint "ESD_protection-SR05:SOT143")
