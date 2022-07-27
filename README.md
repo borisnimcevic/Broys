@@ -23,7 +23,8 @@
 |Male Header 16 positions (1 row)|2        |[digikey](https://www.digikey.se/en/products/detail/adam-tech/PH1-16-UA/9830344) |
 |Ceramic inductor 2.7nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C2N7SV6T/1830166?s=N4IgTCBcDaIDIFoAMB2AwmAcigygNQDYAVEAXQF8g) |
 |Ceramic inductor 3.9nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C3N9SV6T/1915227) |
-|P-channel MOSFET|5        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/DMP2004K-7/1774201) |
+|P-channel MOSFET|1        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/DMP2004K-7/1774201) |
+|N-channel MOSFET|4        |[digikey](https://www.digikey.se/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028) |
 
 
 
