@@ -25,11 +25,17 @@
 |Ceramic inductor 3.9nH |1        |[digikey](https://www.digikey.se/en/products/detail/johanson-technology-inc/L-07C3N9SV6T/1915227) |
 |P-channel MOSFET|1        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/DMP2004K-7/1774201) |
 |N-channel MOSFET|4        |[digikey](https://www.digikey.se/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028) |
-
+|Resistor 5.1k 1% 0402   |2        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402FR-135K1L/14286364) |
+|Resistor 1k 0402   |5        |[digikey](https://www.digikey.se/en/products/detail/delta-electronics-cyntec/PFR05S-102-JNH/9761533) |
+|Resistor 10k 0402   |4        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402JR-0710KL/726418) |
+|Resistor 2k 0402   |1        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402JR-072KL/726434) |
+|Resistor 100k 0402   |1        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402JR-07100KL/726416) |
+|Resistor 0 ohm 0402   |1        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402JR-070RP/4935294) |
+|Resistor 560 0402   |9        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402JR-07560RL/726492) |
+|Battery charger|1        |[digikey](https://www.digikey.se/en/products/detail/microchip-technology/MCP73832T-2DCI-OT/1223150) |
 
 
 |FLASH 4MBIT   |1        |[digikey](https://www.digikey.se/en/products/detail/winbond-electronics/W25Q16JVSSIM/12143335) |
-|resistor 100 0402   |7        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402FR-07100RP/4935263) |
 |resistor 10k 0402   |1        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402FR-0710KP/4935264) |
 |LED red 0603|30        |[digikey](https://www.digikey.se/en/products/detail/osram-opto-semiconductors-inc/LS-Q976-NR-1/1227986) |
 |LED transistor driver |4        |[digikey](https://www.digikey.se/en/products/detail/micro-commercial-co/MMBT5550-TP/10054662) |
@@ -38,5 +44,4 @@
 |Ceramic capacitor 100nF |1        |[digikey](https://www.digikey.se/en/products/detail/tdk-corporation/CGA2B1X7R1C104M050BC/3949478) |
 |Ceramic capacitor 1uF |1        |[digikey](https://www.digikey.se/en/products/detail/kyocera-avx/04023D105KAT2A/13557232) |
 |Button|2        |[digikey](https://www.digikey.se/en/products/detail/e-switch/TL3301AF260QG/378995?s=N4IgTCBcDaICoBkDMSAMBGAggMTANlQEUBxEAXQF8g) |
-|Battery charger|1        |[digikey](https://www.digikey.se/en/products/detail/microchip-technology/MCP73832T-2DCI-OT/1223150) |
 
