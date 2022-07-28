@@ -33,6 +33,7 @@
 |Resistor 0 ohm 0402   |1        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402JR-070RP/4935294) |
 |Resistor 560 0402   |9        |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0402JR-07560RL/726492) |
 |Battery charger|1        |[digikey](https://www.digikey.se/en/products/detail/microchip-technology/MCP73832T-2DCI-OT/1223150) |
+|LDO 3.3V 600mA|1        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/AP7366-33W5-7/9867322) |
 
 
 |FLASH 4MBIT   |1        |[digikey](https://www.digikey.se/en/products/detail/winbond-electronics/W25Q16JVSSIM/12143335) |
