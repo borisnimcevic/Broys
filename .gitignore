@@ -73,3 +73,5 @@ CMakeCache.txt
 .cache
 .cproject
 .project
+
+.vscode
