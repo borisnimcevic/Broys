@@ -24,24 +24,12 @@
 
 #include "driver/gpio.h"
 // digits (total of 4)
-// static const gpio_num_t DIGI0 = GPIO_NUM_21;
-// static const gpio_num_t DIGI1 = GPIO_NUM_3;
-// static const gpio_num_t DIGI2 = GPIO_NUM_10;
-// static const gpio_num_t DIGI3 = GPIO_NUM_9;
-
 #define DIGI0 GPIO_NUM_21
 #define DIGI1 GPIO_NUM_3
 #define DIGI2 GPIO_NUM_10
 #define DIGI3 GPIO_NUM_9
-// parts of seven segment display
-// static const gpio_num_t A_LED = GPIO_NUM_0;
-// static const gpio_num_t B_LED = GPIO_NUM_1;
-// static const gpio_num_t C_LED = GPIO_NUM_4;
-// static const gpio_num_t D_LED = GPIO_NUM_5;
-// static const gpio_num_t E_LED = GPIO_NUM_6;
-// static const gpio_num_t F_LED = GPIO_NUM_7;
-// static const gpio_num_t G_LED = GPIO_NUM_20;
 
+// parts of seven segment display
 #define A_LED GPIO_NUM_0
 #define B_LED GPIO_NUM_1
 #define C_LED GPIO_NUM_4
@@ -51,7 +39,10 @@
 #define G_LED GPIO_NUM_20
 
 static const gpio_num_t display_pins[] = {
+    // digits
     DIGI0,DIGI1,DIGI2,DIGI3,
+
+    // segments
     A_LED,B_LED,C_LED,D_LED,
     E_LED,F_LED,G_LED,
 };
