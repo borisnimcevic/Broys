@@ -1,5 +1,5 @@
 /*
- * Description: Pin configuration 
+ * Description: Pin configuration
  * Author: Boris Nimcevic
  * Date: 2023/02/03
  *
@@ -23,6 +23,10 @@
 #define PIN_CONFIG_H
 
 #include "driver/gpio.h"
+
+#define PIN_MAX_DIGIT 3
+#define PIN_MAX_NUMBER 9
+
 // digits (total of 4)
 #define DIGI0 GPIO_NUM_21
 #define DIGI1 GPIO_NUM_3
@@ -38,16 +42,36 @@
 #define F_LED GPIO_NUM_7
 #define G_LED GPIO_NUM_20
 
-static const gpio_num_t display_pins[] = {
+static const gpio_num_t digit_pins[] = {
     // digits
-    DIGI0,DIGI1,DIGI2,DIGI3,
+    DIGI0,
+    DIGI1,
+    DIGI2,
+    DIGI3,
+};
 
+static const gpio_num_t led_pins[] = {
     // segments
-    A_LED,B_LED,C_LED,D_LED,
-    E_LED,F_LED,G_LED,
+    A_LED, B_LED, C_LED, D_LED, E_LED, F_LED, G_LED,
+};
+
+static const uint8_t values[11][7] = {
+    {1, 1, 1, 1, 1, 1, 0}, // 0
+    {0, 1, 1, 0, 0, 0, 0}, // 1
+    {1, 1, 0, 1, 1, 0, 1}, // 2
+    {1, 1, 1, 1, 0, 0, 1}, // 3
+    {0, 1, 1, 0, 0, 1, 1}, // 4
+    {1, 0, 1, 1, 0, 1, 1}, // 5
+    {1, 0, 1, 1, 1, 1, 1}, // 6
+    {1, 1, 1, 0, 0, 0, 0}, // 7
+    {1, 1, 1, 1, 1, 1, 1}, // 8
+    {1, 1, 1, 1, 0, 1, 1}, // 9
+    {0, 0, 0, 0, 0, 0, 0}, // off
 };
 
 void initGPIOs(void);
-void initIO(gpio_num_t pin);
+void setPlace(const uint8_t place);
+void setDigit(const uint8_t digit);
+void clearLED(void);
 
 #endif /* PIN_CONFIG_H */
