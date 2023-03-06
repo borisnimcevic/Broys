@@ -70,8 +70,22 @@ static const uint8_t values[11][7] = {
 };
 
 void initGPIOs(void);
-void setPlace(const uint8_t place);
-void setDigit(const uint8_t digit);
 void clearLED(void);
+
+static inline void setPlace(const uint8_t place){
+  const uint8_t mask = (place <= 3) ? (1 << place) : 0;
+  const uint8_t val = mask & 0x0F;
+  gpio_set_level(DIGI0, val & 0x1);
+  gpio_set_level(DIGI1, val & 0x2);
+  gpio_set_level(DIGI2, val & 0x4);
+  gpio_set_level(DIGI3, val & 0x8);
+}
+
+static inline void setDigit(const uint8_t digit) {
+  const uint8_t *val = (digit <= 9) ? values[digit] : values[10];
+  for (int i = 0; i < 7; i++) {
+    gpio_set_level(led_pins[i], val[i]);
+  }
+}
 
 #endif /* PIN_CONFIG_H */

@@ -8,21 +8,31 @@
 
 #define TAG "Example"
 
-// #define TIMER_INTERVAL_US 1000000
-#define TIMER_INTERVAL_US    5000
+#define TIMER_DISPALY_REFRESH_US 5000   // micro seconds
+#define TIMER_COUNTER_INCREMENT_MS 1000 // mili seconds
+
+uint8_t number[4] = {0};
 
 void IRAM_ATTR timer_isr(void *arg) {
-  static uint8_t digit = 0;
   static uint8_t place = 0;
-
-  setDigit(digit);
   setPlace(place);
-
-  digit++;
+  setDigit(number[place]);
   place++;
+  place &= 0x03;
+}
 
-  digit%=4;
-  place%=4;
+void counter_task(void *arg) {
+  uint32_t counter = 0;
+  while (1) {
+    counter++;
+    uint32_t temp = counter;
+    for (int i = 3; i >= 0; i--) {
+      number[i] = temp % 10;
+      temp /= 10;
+    }
+    vTaskDelay(pdMS_TO_TICKS(TIMER_COUNTER_INCREMENT_MS));
+    printf("counter = %d\n", counter);
+  }
 }
 
 void app_main(void) {
@@ -39,8 +49,9 @@ void app_main(void) {
   esp_timer_handle_t timer;
 
   esp_timer_create(&timer_args, &timer);
-  esp_timer_start_periodic(timer, TIMER_INTERVAL_US);
+  esp_timer_start_periodic(timer, TIMER_DISPALY_REFRESH_US);
 
+  xTaskCreate(counter_task, "Counter Task", 2048, NULL, 1, NULL);
   while (1) {
     vTaskDelay(1000 / portTICK_PERIOD_MS);
   }
