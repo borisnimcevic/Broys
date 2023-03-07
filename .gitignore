@@ -75,3 +75,5 @@ CMakeCache.txt
 .project
 
 .vscode
+
+secret_file.h
