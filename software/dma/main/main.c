@@ -11,14 +11,15 @@
 #define TIMER_DISPALY_REFRESH_US 5000   // micro seconds
 #define TIMER_COUNTER_INCREMENT_MS 1000 // mili seconds
 
+#define PLACE_MASK 0x03
+
 uint8_t number[4] = {0};
 
 void IRAM_ATTR timer_isr(void *arg) {
   static uint8_t place = 0;
   setPlace(place);
   setDigit(number[place]);
-  place++;
-  place &= 0x03;
+  place = (place + 1) & PLACE_MASK;
 }
 
 void counter_task(void *arg) {
@@ -36,21 +37,21 @@ void counter_task(void *arg) {
 }
 
 void app_main(void) {
+  // init LEDs
   initGPIOs();
   clearLED();
-  setDigit(0);
-  setPlace(0);
 
+  // init interupt service routine
   esp_timer_create_args_t timer_args = {.callback = timer_isr,
                                         .arg = NULL,
                                         .dispatch_method = ESP_TIMER_TASK,
                                         .name = "my_timer"};
 
   esp_timer_handle_t timer;
-
   esp_timer_create(&timer_args, &timer);
   esp_timer_start_periodic(timer, TIMER_DISPALY_REFRESH_US);
 
+  // create task
   xTaskCreate(counter_task, "Counter Task", 2048, NULL, 1, NULL);
   while (1) {
     vTaskDelay(1000 / portTICK_PERIOD_MS);
